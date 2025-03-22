@@ -3,11 +3,11 @@ CPPFLAGS=-o main.out
 
 all:
     @echo "Build..."
-    @$(CPP) $(CPPFLAGS) calc.cpp
+    @$(CPP) $(CPPFLAGS) src/calc.cpp
 
 install: all
     @echo "Install..."
-    @sudo cp main.out /usr/local/bin/nasralutils
+    @sudo cp src/main.out /usr/local/bin/nasralutils
 
 uninstall:
     @echo "Uninstall..."
@@ -15,4 +15,4 @@ uninstall:
 
 clean:
     @echo "Clean..."
-    @rm main.out
+    @rm src/main.out
