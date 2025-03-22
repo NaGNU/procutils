@@ -3,7 +3,7 @@ CPPFLAGS=-o main.out
 
 all:
     @echo "Build..."
-    @$(CPP) $(CPPFLAGS) main.cpp
+    @$(CPP) $(CPPFLAGS) calc.cpp
 
 install: all
     @echo "Install..."
