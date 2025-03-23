@@ -1,0 +1,15 @@
+/home/ruzen42/src/nasralutils/src/pwd/bin/Debug/net9.0/pwd
+/home/ruzen42/src/nasralutils/src/pwd/bin/Debug/net9.0/pwd.deps.json
+/home/ruzen42/src/nasralutils/src/pwd/bin/Debug/net9.0/pwd.runtimeconfig.json
+/home/ruzen42/src/nasralutils/src/pwd/bin/Debug/net9.0/pwd.dll
+/home/ruzen42/src/nasralutils/src/pwd/bin/Debug/net9.0/pwd.pdb
+/home/ruzen42/src/nasralutils/src/pwd/obj/Debug/net9.0/pwd.GeneratedMSBuildEditorConfig.editorconfig
+/home/ruzen42/src/nasralutils/src/pwd/obj/Debug/net9.0/pwd.AssemblyInfoInputs.cache
+/home/ruzen42/src/nasralutils/src/pwd/obj/Debug/net9.0/pwd.AssemblyInfo.cs
+/home/ruzen42/src/nasralutils/src/pwd/obj/Debug/net9.0/pwd.csproj.CoreCompileInputs.cache
+/home/ruzen42/src/nasralutils/src/pwd/obj/Debug/net9.0/pwd.sourcelink.json
+/home/ruzen42/src/nasralutils/src/pwd/obj/Debug/net9.0/pwd.dll
+/home/ruzen42/src/nasralutils/src/pwd/obj/Debug/net9.0/refint/pwd.dll
+/home/ruzen42/src/nasralutils/src/pwd/obj/Debug/net9.0/pwd.pdb
+/home/ruzen42/src/nasralutils/src/pwd/obj/Debug/net9.0/pwd.genruntimeconfig.cache
+/home/ruzen42/src/nasralutils/src/pwd/obj/Debug/net9.0/ref/pwd.dll

@@ -1,0 +1,5 @@
+/home/ruzen42/src/nasralutils/src/pwd/build/pwd
+/home/ruzen42/src/nasralutils/src/pwd/build/pwd.dll
+/home/ruzen42/src/nasralutils/src/pwd/build/pwd.deps.json
+/home/ruzen42/src/nasralutils/src/pwd/build/pwd.runtimeconfig.json
+/home/ruzen42/src/nasralutils/src/pwd/build/pwd.pdb
