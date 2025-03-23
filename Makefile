@@ -1,10 +1,14 @@
-CPP=g++
-CPPFLAGS=-o main.out
-
 all:
-	@echo "Build..."
-	@$(CPP) $(CPPFLAGS) src/calc.cpp
+	@echo "Build all..."
+	@make calc
+	@make yes
+
+calc: 
+	@$(MAKE) -C src/calc
+
+yes:
+	@$(MAKE) -C src/yes
 
 clean:
 	@echo "Clean..."
-	@rm main.out
+	@rm *.out
