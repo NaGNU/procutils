@@ -3,6 +3,7 @@ all:
 	@make calc
 	@make yes
 	@make cat
+	@make whoname
 
 calc: 
 	@$(MAKE) -C src/calc global
@@ -12,6 +13,9 @@ yes:
 
 cat:
 	@$(MAKE) -C src/cat global
+
+whoname:
+	@$(MAKE) -C src/whoname global
 
 clean:
 	@echo "Clean..."
