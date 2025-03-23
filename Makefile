@@ -4,10 +4,10 @@ all:
 	@make yes
 
 calc: 
-	@$(MAKE) -C src/calc
+	@$(MAKE) -C src/calc global
 
 yes:
-	@$(MAKE) -C src/yes
+	@$(MAKE) -C src/yes global
 
 clean:
 	@echo "Clean..."
