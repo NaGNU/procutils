@@ -8,6 +8,7 @@ make - for all
 zig - for yes
 ghc - for cat
 g++ - for calc
+fpc - for whoname
 ```
 #### Commands
 ``` bash
