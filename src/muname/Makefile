@@ -1,6 +1,6 @@
 CPP = g++
 KCFLAGS = -O3 -static
-TARGET = muname.cpp
+TARGET = main.cpp
 OUT = muname.out
 
 all:
