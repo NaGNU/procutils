@@ -1,10 +1,11 @@
-CS=dotnet
-TARGET=pwd.cs
-CSFLAGS=--self-contained
 all: 
 	@echo "Build pwd..."
-	@$(CS) $(TARGET)
+	@ghc pwd.hs -O3 -o main
 
-global: 
-	@echo "Build pwd..."
-	@dotnet publish -o ../../pwd.out
+global: all
+	@cp main ../../pwd.out
+	@make clean
+
+clean:
+	@echo "Clean..."
+	@rm *.hi *.o main

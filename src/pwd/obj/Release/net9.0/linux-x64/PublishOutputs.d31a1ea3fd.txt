@@ -1,2 +1,0 @@
-/home/ruzen42/src/nasralutils/pwd.out/pwd.pdb
-/home/ruzen42/src/nasralutils/pwd.out/pwd
