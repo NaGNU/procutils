@@ -1,5 +1,5 @@
 // rmv.rs
-
+// Maksim Yarovoy 24.03.2025
 // NaGNU License
 
 use std::env;
