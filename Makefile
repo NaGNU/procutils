@@ -38,6 +38,9 @@ sul:
 muname:
 	@$(MAKE) -C src/muname $(GLB)
 
+rmv:
+	@$(MAKE) -C src/rmv $(GLB)
+
 clean:
 	@echo "Clean..."
 	@rm *.out
