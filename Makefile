@@ -35,6 +35,9 @@ me:
 sul:
 	@$(MAKE) -C src/sul $(GLB)
 
+muname:
+	@$(MAKE) -C src/muname $(GLB)
+
 clean:
 	@echo "Clean..."
 	@rm *.out
