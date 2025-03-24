@@ -9,6 +9,7 @@ all:
 	@make ls
 	@make touchf
 	@make me
+	@make sul
 
 calc: 
 	@$(MAKE) -C src/calc $(GLB) 
@@ -30,6 +31,9 @@ touchf:
 
 me:
 	@$(MAKE) -C src/me $(GLB)
+
+sul:
+	@$(MAKE) -C src/sul $(GLB)
 
 clean:
 	@echo "Clean..."
