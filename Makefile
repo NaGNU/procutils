@@ -5,6 +5,7 @@ all:
 	@make calc
 	@make yes
 	@make cat
+	@make wc
 	@make whoname
 	@make ls
 	@make touchf
@@ -42,6 +43,9 @@ muname:
 
 rmv:
 	@$(MAKE) -C src/rmv $(GLB)
+
+wc:
+	@$(MAKE) -C src/wc $(GLB)
 
 clean:
 	@echo "Clean..."
