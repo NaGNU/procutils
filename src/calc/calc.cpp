@@ -1,3 +1,4 @@
+/*NaGNU by Nikita Shyshatksy (Holos) 24.03.25*/
 #include <iostream>
 #include <stack>
 #include <string>
