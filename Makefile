@@ -8,6 +8,7 @@ all:
 	@make whoname
 	@make ls
 	@make touchf
+	@make me
 
 calc: 
 	@$(MAKE) -C src/calc $(GLB) 
@@ -26,6 +27,9 @@ ls:
 
 touchf:
 	@$(MAKE) -C src/touchf $(GLB)
+
+me:
+	@$(MAKE) -C src/me $(GLB)
 
 clean:
 	@echo "Clean..."
