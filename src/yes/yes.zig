@@ -10,7 +10,7 @@ pub fn main() !void {
     if (args.len > 1) {
         output = args[1];
     } else {
-        output = "yes";
+        output = "y";
     }
 
     while (true) {
