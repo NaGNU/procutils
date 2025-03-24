@@ -10,6 +10,8 @@ all:
 	@make touchf
 	@make me
 	@make sul
+	@make muname
+	@rmv
 
 calc: 
 	@$(MAKE) -C src/calc $(GLB) 
