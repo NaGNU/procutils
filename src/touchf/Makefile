@@ -1,11 +1,13 @@
 PAS=fpc
-PASFLAGS=-otouchf
 
 all:
 	@echo "Build..."
-	@$(PAS) $(PASFLAGS) main.pas
+	@$(PAS) main.pas
 
 clean:
 	@echo "Clean..."
-	@rm touchf
+	@rm main
 	@rm main.o
+
+global: all
+	@mv main ../../touchf.out
