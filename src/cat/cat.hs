@@ -1,3 +1,6 @@
+-- NaGNU/nasralutils/cat
+-- by ruzen42
+
 import System.IO
 import System.Environment (getArgs)
 

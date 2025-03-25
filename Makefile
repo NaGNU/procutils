@@ -6,6 +6,7 @@ all:
 	@make yes
 	@make cat
 	@make wc
+	@make cp
 	@make whoname
 	@make ls
 	@make touchf
@@ -46,6 +47,8 @@ rmv:
 
 wc:
 	@$(MAKE) -C src/wc $(GLB)
+cp:
+	@$(MAKE) -C src/cp $(GLB)
 
 clean:
 	@echo "Clean..."

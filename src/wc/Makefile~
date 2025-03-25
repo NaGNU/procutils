@@ -4,7 +4,7 @@ all:
 
 global: all
 	@mv main ../../wc.out
-	@rm *.hi *.o 
+	@make clean
 
 clean:
 	@echo "Clean.."
