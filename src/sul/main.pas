@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //NaGNU by Nikita Shyshatksy (Holos) 24.03.25
 program Sul;
 
@@ -33,3 +34,6 @@ begin
     WriteLn('Command executed successfully');
   end;
 end.
+=======
+AFTER
+>>>>>>> 36c5e182582697c19dec1ed2a8658cf02a83c77f
