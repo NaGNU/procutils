@@ -11,7 +11,6 @@ all:
 	@make ls
 	@make touchf
 	@make me
-	@make sul
 	@make muname
 	@rmv
 
