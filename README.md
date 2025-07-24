@@ -3,7 +3,7 @@ Coreutils for GenshiOS
 
 ### How to Build from source?
 #### Build dependencies
-``` zig
+``` nim
 make - for all
 nim (choosenim) - for nim project
 zig - for zig project
