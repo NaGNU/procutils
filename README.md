@@ -1,14 +1,15 @@
 # nasralutils
-Coreutils for Ptu/Os
+Coreutils for GenshiOS
 
 ### How to Build from source?
 #### Build dependencies
 ``` zig
 make - for all
-zig - for yes
-ghc - for cat
-g++ - for calc
-fpc - for whoname
+nim (choosenim) - for nim project
+zig - for zig project
+ghc - for haskell project
+g++ - for cpp project
+fpc - for pascal project
 ```
 #### Commands
 ``` bash
