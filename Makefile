@@ -35,9 +35,6 @@ touchf:
 me:
 	@$(MAKE) -C src/me $(GLB)
 
-sul:
-	@$(MAKE) -C src/sul $(GLB)
-
 muname:
 	@$(MAKE) -C src/muname $(GLB)
 
