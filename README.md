@@ -1,14 +1,15 @@
 # nasralutils
-Coreutils for GenshiOS
+Coreutils for Nagnu/System
 
 ### How to Build from source?
 #### Build dependencies
-``` nim
+``` bash
 make - for all
 nim (choosenim) - for nim project
 zig - for zig project
 ghc - for haskell project
 g++ - for cpp project
+fpc - for pascal project
 ```
 #### Commands
 ``` bash
