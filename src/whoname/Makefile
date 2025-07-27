@@ -1,8 +1,8 @@
-PAS=fpc
+N=nim
 
 all:
 	@echo "Build whoname..."
-	@$(PAS) main.pas
+	@$(N) main.pas
 
 clean:
 	@echo "Clean..."
