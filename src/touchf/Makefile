@@ -1,13 +1,12 @@
-PAS=fpc
+N=nim
 
 all:
 	@echo "Build..."
-	@$(PAS) main.pas
+	@$(N) main.pas
 
 clean:
 	@echo "Clean..."
-	@rm main
-	@rm main.o
+	@rm touchf
 
 global: all
-	@mv main ../../touchf.out
+	@mv touchf ../../touchf.out
