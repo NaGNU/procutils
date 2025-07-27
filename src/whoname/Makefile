@@ -6,8 +6,7 @@ all:
 
 clean:
 	@echo "Clean..."
-	@rm main
-	@rm main.o
+	@rm whoname
 
 global: all
-	@mv main ../../whoname.out
+	@mv whoname ../../whoname.out
